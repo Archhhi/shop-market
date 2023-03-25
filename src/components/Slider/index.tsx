@@ -37,7 +37,11 @@ const Slider: FC<SliderProps> = ({
     <div className={styles.wrapper}>
       <Swiper
         loop
-        pagination={width <= 768}
+        pagination={
+          width <= 768 && {
+            clickable: true
+          }
+        }
         modules={[Navigation, Pagination, Thumbs]}
         grabCursor
         thumbs={width > 768 ? { swiper: activeThumb } : undefined}

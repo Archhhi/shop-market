@@ -79,6 +79,7 @@
 
 @media screen and (max-width: 768px) {
   .dropdownBtn {
+    padding: 0 15px;
     height: 40px;
   }
 
