@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/shop-market/static/css/main.cb145275.css",
+    "main.js": "/shop-market/static/js/main.30ee3575.js",
+    "static/media/Inter-Regular.ttf": "/shop-market/static/media/Inter-Regular.620713e669cc9e17a26c.ttf",
+    "static/media/FuturaPT-regular.ttf": "/shop-market/static/media/FuturaPT-regular.cc1c1e0352798ccd4c01.ttf",
+    "static/media/FuturaPT-medium.ttf": "/shop-market/static/media/FuturaPT-medium.30e4feffe6c0de63ca28.ttf",
+    "static/media/Inter-Bold.ttf": "/shop-market/static/media/Inter-Bold.3e3cb905bf27a4c8c370.ttf",
+    "static/media/FuturaPT-bold.ttf": "/shop-market/static/media/FuturaPT-bold.177aef60fe424182d07a.ttf",
+    "static/media/jeans.png": "/shop-market/static/media/jeans.8c84640c757d5b26bf14.png",
+    "static/media/brandIcon-1.svg": "/shop-market/static/media/brandIcon-1.391a5b9e39ba5aeef0182fd68123bad6.svg",
+    "static/media/brandIcon-2.svg": "/shop-market/static/media/brandIcon-2.6420fa2a2560b0aeeb6737e81aebc05d.svg",
+    "static/media/brandIcon-3.svg": "/shop-market/static/media/brandIcon-3.fd36dac3d6db0f5d55e8695f01332633.svg",
+    "static/media/favorite.svg": "/shop-market/static/media/favorite.5f9cc32aae2c53a99d80bc60e7bd1854.svg",
+    "static/media/home.svg": "/shop-market/static/media/home.cfc45530089c197ef8facabcd07e1065.svg",
+    "index.html": "/shop-market/index.html",
+    "static/media/arrow.svg": "/shop-market/static/media/arrow.2e2035d0d8e9fa425861bd1c8eb40f71.svg",
+    "static/media/arrow-back.svg": "/shop-market/static/media/arrow-back.41763472cf81ea94c779724a54909d44.svg",
+    "main.cb145275.css.map": "/shop-market/static/css/main.cb145275.css.map",
+    "main.30ee3575.js.map": "/shop-market/static/js/main.30ee3575.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb145275.css",
+    "static/js/main.30ee3575.js"
+  ]
+}
