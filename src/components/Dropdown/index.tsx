@@ -1,4 +1,4 @@
-import { FC, useState } from 'react'
+import { FC, memo, useMemo, useState } from 'react'
 import styles from './styles.module.css'
 
 import { ProductSize } from '../../types'
@@ -10,23 +10,28 @@ type DropdownProps = {
   size: ProductSize
 }
 
-const Dropdown: FC<DropdownProps> = ({ sizes, size }): JSX.Element => {
+const Dropdown: FC<DropdownProps> = memo(({ sizes, size }): JSX.Element => {
   const [isActive, setIsActive] = useState<boolean>(false)
   const [selectedSize, setSelectedSize] = useState<ProductSize>(size)
+
   const onSelectItem = (size: ProductSize) => {
     setSelectedSize(size)
     setIsActive(false)
   }
 
-  const sizeItems = sizes.map((size, index) => (
-    <li
-      key={index}
-      className={styles.dropdownItem}
-      onMouseDown={() => onSelectItem(size)}
-    >
-      Размер: {size}
-    </li>
-  ))
+  const sizeItems = useMemo(
+    () =>
+      sizes.map((size, index) => (
+        <li
+          key={index}
+          className={styles.dropdownItem}
+          onMouseDown={() => onSelectItem(size)}
+        >
+          Размер: {size}
+        </li>
+      )),
+    [sizes]
+  )
 
   return (
     <div className={styles.wrapper}>
@@ -44,6 +49,6 @@ const Dropdown: FC<DropdownProps> = ({ sizes, size }): JSX.Element => {
       {isActive && <ul className={styles.dropdownContent}>{sizeItems}</ul>}
     </div>
   )
-}
+})
 
 export default Dropdown

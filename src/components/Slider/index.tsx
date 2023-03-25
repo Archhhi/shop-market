@@ -1,4 +1,4 @@
-import { FC, useState } from 'react'
+import { FC, useMemo, useState } from 'react'
 import styles from './styles.module.css'
 import './slider.css'
 import 'swiper/css'
@@ -20,18 +20,26 @@ const Slider: FC<SliderProps> = ({
 }): JSX.Element => {
   const [activeThumb, setActiveThumb] = useState<SwiperClass>()
 
-  const productImageSlides = productImages.map((productImage, index) => (
-    <SwiperSlide key={index}>
-      <img src={productImage} alt="Jeans image" />
-    </SwiperSlide>
-  ))
+  const productImageSlides = useMemo(
+    () =>
+      productImages.map((productImage, index) => (
+        <SwiperSlide key={index}>
+          <img src={productImage} alt="Jeans image" />
+        </SwiperSlide>
+      )),
+    [productImages]
+  )
 
-  const productImageThumbSlides = productImages.map((productImage, index) => (
-    <SwiperSlide key={index}>
-      <div className={'product-images-slider-thumbs-wrapper'}></div>
-      <img src={productImage} alt="Jeans image" />
-    </SwiperSlide>
-  ))
+  const productImageThumbSlides = useMemo(
+    () =>
+      productImages.map((productImage, index) => (
+        <SwiperSlide key={index}>
+          <div className={'product-images-slider-thumbs-wrapper'}></div>
+          <img src={productImage} alt="Jeans image" />
+        </SwiperSlide>
+      )),
+    [productImages]
+  )
 
   return (
     <div className={styles.wrapper}>
