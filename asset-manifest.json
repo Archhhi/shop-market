@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shop-market/static/css/main.cb145275.css",
-    "main.js": "/shop-market/static/js/main.30ee3575.js",
+    "main.css": "/shop-market/static/css/main.86bda184.css",
+    "main.js": "/shop-market/static/js/main.3e00ad21.js",
     "static/media/Inter-Regular.ttf": "/shop-market/static/media/Inter-Regular.620713e669cc9e17a26c.ttf",
     "static/media/FuturaPT-regular.ttf": "/shop-market/static/media/FuturaPT-regular.cc1c1e0352798ccd4c01.ttf",
     "static/media/FuturaPT-medium.ttf": "/shop-market/static/media/FuturaPT-medium.30e4feffe6c0de63ca28.ttf",
@@ -16,11 +16,11 @@
     "index.html": "/shop-market/index.html",
     "static/media/arrow.svg": "/shop-market/static/media/arrow.2e2035d0d8e9fa425861bd1c8eb40f71.svg",
     "static/media/arrow-back.svg": "/shop-market/static/media/arrow-back.41763472cf81ea94c779724a54909d44.svg",
-    "main.cb145275.css.map": "/shop-market/static/css/main.cb145275.css.map",
-    "main.30ee3575.js.map": "/shop-market/static/js/main.30ee3575.js.map"
+    "main.86bda184.css.map": "/shop-market/static/css/main.86bda184.css.map",
+    "main.3e00ad21.js.map": "/shop-market/static/js/main.3e00ad21.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb145275.css",
-    "static/js/main.30ee3575.js"
+    "static/css/main.86bda184.css",
+    "static/js/main.3e00ad21.js"
   ]
 }
