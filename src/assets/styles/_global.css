@@ -1,0 +1,29 @@
+@font-face {
+  src: url("../fonts/FuturaPT-regular.ttf") format("truetype");
+  font-family: "Futura PT";
+  font-weight: 400;
+}
+
+@font-face {
+  src: url("../fonts/FuturaPT-medium.ttf") format("truetype");
+  font-family: "Futura PT";
+  font-weight: 500;
+}
+
+@font-face {
+  src: url("../fonts/FuturaPT-bold.ttf") format("truetype");
+  font-family: "Futura PT";
+  font-weight: 700;
+}
+
+@font-face {
+  src: url("../fonts/Inter-Regular.ttf") format("truetype");
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+@font-face {
+  src: url("../fonts/Inter-Bold.ttf") format("truetype");
+  font-family: "Inter";
+  font-weight: 700;
+}

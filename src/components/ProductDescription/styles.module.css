@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 453px;
+  row-gap: 20px;
+}
+
+.description {
+  margin: 0;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+@media screen and (max-width: 970px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 280px;
+  }
+}
