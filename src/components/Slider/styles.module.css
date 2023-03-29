@@ -2,13 +2,18 @@
   width: 396px;
 }
 
-@media screen and (max-width: 1440px) {
+.productImagesSliderThumbsWrapper {
+  margin-top: 15px;
+  pointer-events: all !important;
+}
+
+@media screen and (max-width: 1439px) {
   .wrapper {
     width: 314px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .wrapper {
     position: relative;
     width: 280px;

@@ -23,6 +23,6 @@ export const productItem: ProductType = {
     productImage,
     productImage,
     productImage,
-    productImage
+    brandIcon_3
   ]
 }

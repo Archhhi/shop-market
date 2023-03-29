@@ -19,6 +19,7 @@ module.exports = {
   // Fine tune rules
   rules: {
     '@typescript-eslint/no-var-requires': 0,
+    '@typescript-eslint/ban-ts-comment': 'off',
     'react/prop-types': 0,
     'react/display-name': 0,
     'react/react-in-jsx-scope': 'off'

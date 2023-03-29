@@ -24,7 +24,7 @@
 
 .title {
   margin: 0;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 25px;
   line-height: 30px;
@@ -60,7 +60,7 @@
   border: none;
   width: 219px;
   height: 50px;
-  font-family: "Futura PT", sans-serif;
+  font-family: 'Futura PT', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
@@ -83,7 +83,7 @@
   border-radius: 10em;
   width: 50px;
   height: 50px;
-  background-image: url("../../assets/images/icons/commonIcons/favorite.svg");
+  background-image: url('../../assets/images/icons/commonIcons/favorite.svg');
   background-position: center center;
   background-repeat: no-repeat;
   background-color: #eeeeee;
@@ -132,7 +132,7 @@
 }
 
 .size.missing::before {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   border-top: 1px solid #e5e5e5;
@@ -152,7 +152,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
   .wrapper {
     row-gap: 25px;
   }
@@ -187,7 +187,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .wrapper {
     width: 280px;
   }

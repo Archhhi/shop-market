@@ -42,7 +42,7 @@ const ProductMainInfo: FC<ProductMainInfoProps> = ({
           </div>
           <ArrowBack className={styles.arrowBack} />
         </div>
-        {width <= 768 && (
+        {width < 768 && (
           <div className={styles.sizeOptionsWrapper}>
             <ul className={styles.sizesWrapper}>{sizeItems}</ul>
             <div className={styles.sizeHelp}>
@@ -63,7 +63,7 @@ const ProductMainInfo: FC<ProductMainInfoProps> = ({
         {width > 970 && <div className={styles.favorite}></div>}
       </div>
 
-      {width > 768 && (
+      {width >= 768 && (
         <div className={styles.sizeOptionsWrapper}>
           <ul className={styles.sizesWrapper}>{sizeItems}</ul>
           <div className={styles.sizeHelp}>

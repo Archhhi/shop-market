@@ -51,7 +51,7 @@ const Product: FC = (): JSX.Element => {
           </div>
         </>
       )}
-      {width <= 1440 && width > 768 && (
+      {width < 1440 && width >= 768 && (
         <>
           <div className={styles.leftBlock}>
             <Navigation />
@@ -75,7 +75,7 @@ const Product: FC = (): JSX.Element => {
         </>
       )}
 
-      {width <= 768 && (
+      {width < 768 && (
         <>
           <div className={styles.productInfoWrapper}>
             <ProductMainInfo

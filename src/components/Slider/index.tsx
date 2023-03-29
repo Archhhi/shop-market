@@ -34,7 +34,7 @@ const Slider: FC<SliderProps> = ({
     () =>
       productImages.map((productImage, index) => (
         <SwiperSlide key={index}>
-          <div className={'product-images-slider-thumbs-wrapper'}></div>
+          <div className={styles.productImagesSliderThumbsWrapper}></div>
           <img src={productImage} alt="Jeans image" />
         </SwiperSlide>
       )),
@@ -46,18 +46,18 @@ const Slider: FC<SliderProps> = ({
       <Swiper
         loop
         pagination={
-          width <= 768 && {
+          width < 768 && {
             clickable: true
           }
         }
         modules={[Navigation, Pagination, Thumbs]}
         grabCursor
-        thumbs={width > 768 ? { swiper: activeThumb } : undefined}
+        thumbs={width >= 768 ? { swiper: activeThumb } : undefined}
         className={'product-images-slider'}
       >
         {productImageSlides}
       </Swiper>
-      {width > 768 && (
+      {width >= 768 && (
         <Swiper
           onSwiper={setActiveThumb}
           spaceBetween={15}

@@ -26,11 +26,6 @@
   margin: 0 auto;
 }
 
-.product-images-slider-thumbs {
-  margin-top: 15px;
-  pointer-events: all !important;
-}
-
 .product-images-slider-thumbs .swiper-slide {
   display: flex;
   margin-right: 0 !important;
@@ -59,7 +54,7 @@
   pointer-events: all !important;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
   .product-images-slider {
     height: 449px;
   }
@@ -69,7 +64,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .product-images-slider {
     height: 400px;
   }
